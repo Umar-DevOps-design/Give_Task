@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+#Creating 20 .txt files
+
+for i in {1..20}; do touch "file$i.txt"; done
+
+
+#Renaming the first 5 .txt files to .yml
+
+for i in {1..5}; do mv "file$i.txt" "file$i.yml"; done
+
+
+#To Print the latest created top 5 files
+
+ls -lt | head -n 6  # The first line is the total, so we take 6 to get 5 files.

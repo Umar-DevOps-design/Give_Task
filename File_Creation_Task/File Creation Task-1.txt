@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#Command to create a directory called "my_folder"
+
+mkdir my_folder
+
+#Navigate into the directory
+
+cd my_folder
+
+#Create a file named "my_file.txt" with some text
+
+touch my_file.txt
+
+echo "Text-1 India Is My Country" > my_file.txt
+
+
+#Create another file named "another_file.txt" with some text
+
+touch another_file.txt
+
+echo "Text-2 All Indians are my brother and sisters" > another_file.txt
+
+#Concatenate the content of "another_file.txt" to "my_file.txt"
+
+cat another_file.txt >> my_file.txt
+
+#Display the updated content of "my_file.txt"
+
+cat my_file.txt
+#List all files and directories in the current directory
+
+ls -l
