@@ -1,0 +1,1 @@
+AWS CI-CD (CodeCommit, CodeBuild, CodeDeploy, CodePipeline). are no longer be available to new customers after July 25, 2024. So please consider this task as complete.
